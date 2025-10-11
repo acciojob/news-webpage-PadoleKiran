@@ -1,1 +1,89 @@
 /*  your css code here. If applicable */
+ body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ===== Header Section ===== */
+    .header {
+      background-color: #011e29;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    /* ===== Latest News Section ===== */
+    .latest-news-section {
+      background-color: white;
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .latest-news-section h2 {
+      color: #011e29;
+      border-bottom: 2px solid #011e29;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+
+    .latest-news-section ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .latest-news-section li {
+      margin: 10px 0;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    /* ===== Pictorial News Section ===== */
+    .pictorial-news-section {
+      background-color: white;
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .pictorial-news-section h2 {
+      color: #011e29;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #011e29;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .pictorial-news-section img {
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .pictorial-news-section img:hover {
+      transform: scale(1.05);
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      background-color: #011e29;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
